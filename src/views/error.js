@@ -7,7 +7,7 @@ function Error(){
         <main>
             <Container fluid className="error-s1 min-vh-100 d-flex align-items-center py-5">
                 <Row className="w-100 mx-0">
-                    <Col xs={8} md={6} className="text-start text-shadow">
+                    <Col xs={8} md={6} className="text-end ms-auto text-shadow">
                         <h1 className="display-3 text-white fw-bold">
                             Error 404
                         </h1>

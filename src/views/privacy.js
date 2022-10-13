@@ -8,9 +8,9 @@ function Privacy(){
             <Container fluid className="privacy-s1 min-vh-100 d-flex align-items-center">
                 <Row className="mx-0 w-100 py-5 my-5">
                     <Col xs={12} sm={10} md={8} lg={7} xl={6} className="mx-auto">
-                        <Card className="text-center text-dark bg-white border-secondary shadow">
-                            <Card.Header className="bg-white border-bottom-0">
-                                <h1 class="h4 text-secondary mt-3">
+                        <Card className="text-center text-dark bg-info border-dark shadow">
+                            <Card.Header className="bg-transparent border-bottom-0">
+                                <h1 class="h4 text-dark mt-3">
                                     Privacy Policy
                                 </h1>
                             </Card.Header>
@@ -42,8 +42,8 @@ function Privacy(){
                                     on other websites or resources are accidental.
                                 </p>
                             </Card.Body>
-                            <Card.Footer className="border-top text-center pb-3 bg-white border-top-0">
-                                <Link to="/" className="btn btn-outline-secondary rounded-pill">
+                            <Card.Footer className="border-top text-center pb-3 bg-info border-top-0">
+                                <Link to="/" className="btn btn-outline-dark rounded-pill">
                                     back to <span className="fw-bold">Home</span>
                                 </Link>
                             </Card.Footer>
@@ -51,7 +51,7 @@ function Privacy(){
                     </Col>
                 </Row>
             </Container>            
-            <Footer classExt={"py-1 border-top border-secondary bg-dark"}/>
+            <Footer classExt={"py-1 border-top border-dark bg-info"}/>
         </main>
     );
 }
